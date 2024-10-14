@@ -2,7 +2,7 @@
 
 ## A Portfolio of Achievements, Vision, and Passion 
 
-# [Portfolio CLick Here](https://hasanportfolio.vercel.app/)
+# [Portfolio (Click Here)](https://hasanportfolio.vercel.app/)
 
 ![hasanportfolio](https://github.com/user-attachments/assets/d65b7f39-7dee-480f-99f6-8299150a3548).
 
