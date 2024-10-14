@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **A Symphony of Skills**
 
-## Getting Started
+## A Portfolio of Achievements, Vision, and Passion
 
-First, run the development server:
+##About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###  I have diverse interests in coffee ☕, watches ⌚, stocks 💸, and fitness 🏋️‍♂️, which demonstrate that I am a well-rounded individual with a variety of experiences and knowledge. I have strong interpersonal skills and the ability to connect with others, making me an excellent team player. I am always willing to listen and support others, showing my dedication and reliability as a team member. My eagerness to grow and passion for many things drive me to continuously learn, develop my skills, and explore new ideas and experiences. My unique combination of interests, skills, and personal qualities make me a strong candidate for any company looking for a dedicated and empathetic team member who is eager to grow and passionate about their work.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Highly motivated and detail-oriented Security Engineer with a strong foundation in cybersecurity and a proven ability to deliver secure, reliable,
+and innovative software solutions. Experienced in full-stack development, system design, and vulnerability assessment. I am seeking a challenging
+role where I can leverage my passion for technology and security expertise to drive impactful results.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![hasanprofile](https://github.com/user-attachments/assets/32a5b79e-7df6-4bd3-9922-b51bde523f43)
 
-## Learn More
+## Projects
 
-To learn more about Next.js, take a look at the following resources:
+![https://github.com/PGIPTech/Security_Training)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![https://github.com/PGIPTech/Peer-Project-my-counter-app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![https://github.com/PGIPTech/Peer-Project-Tic-Tac-Toe)
 
-## Deploy on Vercel
+![https://github.com/PGIPTech/ACGaming)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Resume
+
+[Hasan El-haj Cybersecurity.pdf](https://github.com/user-attachments/files/17368846/Hasan.El-haj.Cybersecurity.pdf)
+
+
+## Certificates 
+
+### [Foundations of Cybersecurity] (https://www.coursera.org/account/accomplishments/certificate/ZGYZ8MC5B2M2)
+### [Play It Safe: Manage Security Risks] (https://www.coursera.org/account/accomplishments/certificate/4TZY2LUETBSL)
+
+
