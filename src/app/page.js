@@ -319,10 +319,10 @@ const HasanPortfolio = () => {
         )}
       </div>
       
-      <div className="flex justify-between items-center mt-4">
+      <div className="flex flex-col sm:flex-row justify-between items-center mt-4 space-y-4 sm:space-y-0 sm:space-x-4">
         <button
           onClick={() => setShowContactForm(!showContactForm)}
-          className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition-colors"
+          className="w-full sm:w-auto px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition-colors"
         >
           {showContactForm ? 'Back to Terminal' : 'Contact Me'}
         </button>
@@ -334,7 +334,7 @@ const HasanPortfolio = () => {
             GitHub
           </a>
           <a href="https://linkedin.com/in/hasanelhaj" target="_blank" rel="noopener noreferrer" className="p-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
-            Linkedin
+            LinkedIn
           </a>
           <a href="mailto:sehasanelhaj@gmail.com" className="p-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors">
             Email
