@@ -1,17 +1,16 @@
 {
-    "build": {
-      "command": "npm run build"
-    },
-    "routes": [
-      {
-        "src": "/api/send-email",
-        "dest": ".vercel/functions/send-email.js"
-      }
-    ],
-    "cron": [
-      {
-        "path": "/api/send-email",
-        "schedule": "0 5 * * *"
-      }
-    ]
+  "build": {
+    "command": "bun build"
+  },
+  "routes": [
+    {
+      "src": "/api/send-email",
+      "dest": ".vercel/functions/send-email.js"
+    }
+  ],
+  "functions": {
+    "send-email": {
+      "runtime": "bun"
+    }
   }
+}

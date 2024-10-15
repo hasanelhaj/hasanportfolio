@@ -1,19 +1,29 @@
-const sgMail = require('@sendgrid/mail');
+import { fetch } from 'bun';
 
-exports.handler = async () => {
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+const apiKey = '4a1f30f452929347b12d5e766f8d7b03';
+const apiSecret = 'f9d8aa026cb77dee52291f4e0a9ea03e';
 
-  const msg = {
-    to: 'recipient_email@example.com',
-    from: 'sehasanelhaj@gmail7078.com',
-    subject: 'Email from Vercel Cron Job',
-    text: 'This email was sent using a Vercel cron job.'
-  };
-
-  try {
-    const info = await sgMail.send(msg);
-    console.log('Email sent:', info.messageId);
-  } catch (error) {
-    console.error('Error sending email:', error);
-  }
+const data = {
+  Messages: [
+    {
+      From: { Email: 'sehasanelhaj@gmail.com', Name: 'Hasan El-haj' },
+      To: { Email: 'recipient_email@example.com', Name: 'Recipient Name' },
+      Subject: 'Contact Form Submission',
+      TextPart: formData.message
+    }
+  ]
 };
+
+const url = `https://api.mailjet.com/v3/send.json?apiKey=${apiKey}&secret=${apiSecret}`;
+
+fetch(url, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(data)
+})
+  .then(response => response.json())
+  .then(json => console.log(json))   
+
+  .catch(error => console.error(error));
