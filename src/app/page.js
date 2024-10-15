@@ -139,7 +139,7 @@ const HasanPortfolio = () => {
     setLastVisit(new Date().toLocaleString());
 
     if (isBooting) {
-      const lineHeight = 15;
+      const lineHeight = 20;
       const maxLines = Math.ceil(windowSize.height / lineHeight);
       let lines = 0;
       const intervalId = setInterval(() => {
